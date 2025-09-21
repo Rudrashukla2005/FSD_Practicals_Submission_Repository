@@ -1,0 +1,94 @@
+/* HookComponent.css */
+
+div {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #d2fffd 0%, #9feefc 100%);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #3b1a57;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #7f00ff;
+  text-shadow: 1px 1px 3px #e0c3fc;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  margin: 5px 8px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* Different colors for each button */
+button:nth-of-type(1) {
+  background: #ff6b6b; /* Increment - red */
+}
+button:nth-of-type(1):hover {
+  background: #ff4c4c;
+}
+
+button:nth-of-type(2) {
+  background: #1dd1a1; /* Decrement - teal */
+}
+button:nth-of-type(2):hover {
+  background: #10ac84;
+}
+
+button:nth-of-type(3) {
+  background: #54a0ff; /* Reset - blue */
+}
+button:nth-of-type(3):hover {
+  background: #2e86de;
+}
+
+button:nth-of-type(4) {
+  background: #f368e0; /* Increment-5 - pink/purple */
+}
+button:nth-of-type(4):hover {
+  background: #d63094;
+}
+
+input {
+  width: 80%;
+  padding: 10px 14px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  border: 2.5px solid #7f00ff;
+  margin-bottom: 20px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: inset 0 1px 3px rgba(127, 0, 255, 0.15);
+  color: #4b0082;
+  font-weight: 600;
+}
+
+input:focus {
+  border-color: #ff6b6b;
+  box-shadow: 0 0 8px #ff6b6b;
+  color: #000;
+}
+
+h3 {
+  font-weight: 700;
+  color: #6a0dad;
+  margin: 10px 0 5px;
+  text-shadow: 0 0 3px #dda0dd;
+}
