@@ -1,22 +1,22 @@
-/* HookComponent.css */
+/* HookComponent.css - Revised with a Professional Palette */
 
 div {
   max-width: 400px;
   margin: 40px auto;
   padding: 30px 20px;
-  background: linear-gradient(135deg, #d2fffd 0%, #9feefc 100%);
+  background: #f8f9fa; /* A very light gray background */
   border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #3b1a57;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #343a40; /* Dark gray for text */
   text-align: center;
 }
 
 h1 {
   font-size: 3rem;
   margin-bottom: 20px;
-  color: #7f00ff;
-  text-shadow: 1px 1px 3px #e0c3fc;
+  color: #007bff; /* A vibrant blue for the heading */
+  text-shadow: none;
 }
 
 button {
@@ -28,42 +28,43 @@ button {
   border-radius: 10px;
   cursor: pointer;
   font-weight: 600;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 button:hover {
-  transform: scale(1.1);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
 /* Different colors for each button */
 button:nth-of-type(1) {
-  background: #ff6b6b; /* Increment - red */
+  background: #dc3545; /* Increment - A professional red */
 }
 button:nth-of-type(1):hover {
-  background: #ff4c4c;
+  background: #c82333;
 }
 
 button:nth-of-type(2) {
-  background: #1dd1a1; /* Decrement - teal */
+  background: #28a745; /* Decrement - A calm green */
 }
 button:nth-of-type(2):hover {
-  background: #10ac84;
+  background: #218838;
 }
 
 button:nth-of-type(3) {
-  background: #54a0ff; /* Reset - blue */
+  background: #007bff; /* Reset - Primary blue */
 }
 button:nth-of-type(3):hover {
-  background: #2e86de;
+  background: #0069d9;
 }
 
 button:nth-of-type(4) {
-  background: #f368e0; /* Increment-5 - pink/purple */
+  background: #ffc107; /* Increment-5 - A soft orange */
+  color: #343a40; /* Dark text for better contrast */
 }
 button:nth-of-type(4):hover {
-  background: #d63094;
+  background: #e0a800;
 }
 
 input {
@@ -71,24 +72,24 @@ input {
   padding: 10px 14px;
   font-size: 1.1rem;
   border-radius: 12px;
-  border: 2.5px solid #7f00ff;
+  border: 2px solid #ced4da; /* A neutral gray border */
   margin-bottom: 20px;
   outline: none;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: inset 0 1px 3px rgba(127, 0, 255, 0.15);
-  color: #4b0082;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+  color: #495057; /* Dark gray text */
   font-weight: 600;
 }
 
 input:focus {
-  border-color: #ff6b6b;
-  box-shadow: 0 0 8px #ff6b6b;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
   color: #000;
 }
 
 h3 {
   font-weight: 700;
-  color: #6a0dad;
+  color: #495057; /* Dark gray for a professional look */
   margin: 10px 0 5px;
-  text-shadow: 0 0 3px #dda0dd;
+  text-shadow: none;
 }
